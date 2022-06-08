@@ -1,0 +1,98 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    margin: 3% 20% auto 10%;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: x-large;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+
+.form {
+    display: block;
+    margin: 2% 20% auto 20%;
+}
+    input, textarea {
+        background-color: #3B3B3B;
+        color: white;
+    }
+    input[type="text"], textarea, .btn {
+        font-size: x-large;
+        border: none;
+        border-radius: 10px;
+        padding: 2%;
+        margin-top: 5%;
+        width: 100%;
+        max-width: 100%;
+    }
+        input[type="submit"], .btn-primary {
+            background-color: aqua;
+            width: 70%;
+            cursor: pointer;
+        }
+        input[type="reset"], .btn-danger {
+            background-color: blueviolet;
+            width: 28%;
+            cursor: pointer;
+        }
+    .text-control {
+        border-bottom: 2px dashed green;
+    }
+
+aside {
+    float: right;
+    margin-right: 10%;
+    margin-top: -23%;
+    text-transform: uppercase;
+}
+    aside h2 {
+        font-size: x-large;
+    }
+
+blockquote {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+}
+    a {
+        text-decoration: none;
+        color: aquamarine;
+    }
+
+@media screen and (max-width: 1022px) {
+    .container {
+        margin: 3% 20% auto 20%;
+    }
+    h1 {
+        font-size: medium;
+    }
+    .form {
+        margin: 0;
+    }
+        input, textarea, .btn {
+            font-size: medium;
+        }
+    
+    aside {
+        clear: right;
+        display: none;
+    }
+
+    blockquote {
+        font-size: small;
+        margin: 0;
+    }
+}

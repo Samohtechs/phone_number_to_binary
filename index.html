@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Converting a phone number to it&apos;s binary is useful in scenarios where you have to place a phone number in form of binary instead of actual phone number. Example, when you intend to hack a WhatsApp group and become Admin you have to take admin&apos;s phone number and convert it to binary.">
+    <meta name="keyword" content="convert, number to binary, binary, number binary, calculator, binary calculator, number systems, binary codes">
+    <title>Phone Number 2 Binary</title>
+    <link rel="stylesheet" type="text/css" href="static/style/style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>convert phone number to binary</h1>
+        <div class="form">
+            <input type="text" class="text-control" id="phnNum" minlength="10" maxlength="13" placeholder="ex. 07xxxx or 255xxxx or +255xxxx" />
+
+            <textarea class="textarea-control"" id="binNum" placeholder="Binary Phone number" readonly></textarea>
+
+            <input type="submit" class="btn btn-primary" value="CONVERT" onclick="convertPhnNum()">
+            
+            <input type="reset" class="btn btn-danger" value="CLEAR" onclick="clear()">
+        </div>
+    </div>
+
+    <aside class="aside">
+        <h2>conversion table</h2>
+        <table>
+            <thead>
+                <th>digit</th>
+                <th>binary code</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>0</td>
+                    <td>0000</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>0001</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>0010</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>0011</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>0100</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>0101</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>0110</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>0111</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>1001</td>
+                </tr>
+            </tbody>
+        </table>
+    </aside>
+
+    <div class="container">
+        <article class="form">
+            <blockquote>
+                "Converting a phone number to it&apos;s binary is useful in scenarios where you have to place a phone number in form of binary instead of actual phone number. Example, when you intend to hack a WhatsApp group and become Admin you have to take admin&apos;s phone number and convert it to binary."
+
+                <p>
+                    <u>NB:</u>&nbsp;Convertion is done per single digit, hence entering example, 25 will be seen as a 2,5 (which will output 00100101) and not a 25 as a whole (expecting to be 11111).
+                </p>
+            </blockquote>
+        </article>
+    </div>
+    
+    <div class="container">
+        <footer class="form">
+            Copyright&copy; SamohTechs. <a href="https://www.github.com/SamohTechs/phone-number-to-binary/license">All Rights Reserved.</a> | <a href="https://www.github.com/SamohTechs">GitHub</a>
+        </footer>
+    </div>
+
+    <!-- Script -->
+    <script type="text/javascript" src="static/js/num2bin.js"></script>
+</body>
+</html>
