@@ -1,6 +1,6 @@
-# phone_number_to_binary
+# PHONE NUMBER TO BINARY CONVERTER
  convert mobile number to binary
 
 ### Snapshots :
-<img src= "static/num2bin_converter.png"  width="40%">
-<img src= "static/num2bin_converter2.png"  width="40%">
+<img src= "static/num2bin_converter.PNG.png"  width="40%">
+<img src= "static/num2bin_converter2..PNG.png"  width="40%">
